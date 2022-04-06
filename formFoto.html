@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Upload Foto Menu</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h2>Rinjani Resto</h2>
+            <div class="menu">
+                <a href="home.html"><b>Home</b></a>
+                <a href="transaksi.html"><b>Transaksi</b></a>
+                <a href="formFoto.html"><b>Tambah Foto</b></a>
+            </div>
+        </div>
+        
+        <div class="upFoto">
+            <h2>Menambah Foto Menu</h2><br>
+            <form action="tambahFoto.php" enctype="multipart/form-data" method="POST">
+                Pilihlah foto menu yang diupload:
+                <input type="file" name="uploadedfile"><br><br>
+                <input type="submit" value="Upload Foto">
+            </form>
+        </div>
+
+        <div class="footer">
+            <center>
+                <h2>Jl. Penanggungan No. 33, Bandar Lor, Kec. Mojoroto, Kediri, Jawa timur 64114</h2>
+                <h2>Telp : 089516517115</h2>
+                <h5>&copy; Copyright 2022 Rinjani Resto</h5>
+            </center>
+        </div>
+    </body>
+</html>

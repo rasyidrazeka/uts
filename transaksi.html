@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Transaksi</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h2>Rinjani Resto</h2>
+            <div class="menu">
+                <a href="home.html"><b>Home</b></a>
+                <a href="transaksi.html"><b>Transaksi</b></a>
+                <a href="formFoto.html"><b>Tambah Foto</b></a>
+            </div>
+        </div>
+
+        <div class="isiTransaksi">
+            <h2>Hitung Transaksi</h2><br>
+            <form action="totalHarga.php" method="POST">
+                <label>Nama Pembeli :</label>
+                <input type="text" name="nama" placeholder="Nama Pembeli"><br><br>
+                <label>Status Pembeli : </label>
+                <select name="status" id="status">
+                    <option value="member">Member</option>
+                    <option value="non-member">Non-member</option>
+                </select><br><br>
+                <label>Menu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <select name="menu" id="menu">
+                    <option value="paket1">Paket 1</option>
+                    <option value="paket2">Paket 2</option>
+                    <option value="paket3">Paket 3</option>
+                </select><br><br>
+                <label>Jumlah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="text" name="jumlah" placeholder="Jumlah Pesanan"><br><br>
+                <input type="submit" name="Hitung"><br><br><br><br><br><br><br><br><br><br>
+            </form>
+        </div>
+
+        <div class="footer">
+            <center>
+                <h2>Jl. Penanggungan No. 33, Bandar Lor, Kec. Mojoroto, Kediri, Jawa timur 64114</h2>
+                <h2>Telp : 089516517115</h2>
+                <h5>&copy; Copyright 2022 Rinjani Resto</h5>
+            </center>
+        </div>
+    </body>
+</html>

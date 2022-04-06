@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+    background: black;
+}
+.header a{
+    text-decoration: none;
+    color: #ddaa44;
+    font-family: Tahoma;
+    padding: 10px;
+}
+.header h2{
+    color: #ddaa44;
+    font-family: 'Damion', cursive;
+    font-size: 50px;
+}
+.menu{
+    text-align: right;
+}
+.isi h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #ddaa44;
+    font-family: 'Damion', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.isi img{
+    width: 900px;
+    height: 400px;
+}
+.isi h4{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.isi h2{
+    padding: 30px;
+}
+.footer{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0px;
+    background: black;
+}
+.footer center h2{
+    color: white;
+}
+.footer center h5{
+    color: orange;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.upFoto{
+    padding: 10px;
+    font-family: Tahoma;
+    height: 396px;
+}
+.isiTransaksi{
+    padding: 10px;
+}
+.isiTransaksi h2{
+    font-family: Tahoma;
+}
+.isioutput{
+    padding: 10px;
+    height: 397px;
+}
